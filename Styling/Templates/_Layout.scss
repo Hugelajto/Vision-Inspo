@@ -1,0 +1,54 @@
+.L-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  position: relative;
+
+  .L-header-title {
+    font-family: "Josefin Slab";
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.329);
+  }
+
+  .svg {
+    position: absolute;
+    top: 0.1em;
+    right: 0.6em;
+    width: 150px;
+    opacity: 70%;
+    z-index: 1;
+  }
+}
+
+.L-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Josefin Slab";
+
+  .L-article-container {
+    border-radius: 1em;
+    margin: 2em;
+    width: 90%;
+    min-height: 27em;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.411);
+  }
+
+  .L-button {
+    font-family: "Josefin Slab";
+    font-size: 1.5rem;
+    align-self: flex-end;
+    margin-right: 5%;
+    padding: 1em 3em;
+    border: 0;
+    border-radius: 9999px;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

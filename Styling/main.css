@@ -1,0 +1,193 @@
+.H-header-container {
+  background-color: #ccd5ae;
+}
+
+.H-article-container {
+  background-color: #ccd5ae;
+}
+
+.H-button {
+  background-color: #ccd5ae;
+}
+
+.L-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 20vh;
+  position: relative;
+}
+.L-header-container .L-header-title {
+  font-family: "Josefin Slab";
+  text-align: center;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.329);
+}
+.L-header-container .svg {
+  position: absolute;
+  top: 0.1em;
+  right: 0.6em;
+  width: 150px;
+  opacity: 70%;
+  z-index: 1;
+}
+
+.L-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Josefin Slab";
+}
+.L-main-container .L-article-container {
+  border-radius: 1em;
+  margin: 2em;
+  width: 90%;
+  min-height: 27em;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.411);
+}
+.L-main-container .L-button {
+  font-family: "Josefin Slab";
+  font-size: 1.5rem;
+  align-self: flex-end;
+  margin-right: 5%;
+  padding: 1em 3em;
+  border: 0;
+  border-radius: 9999px;
+}
+.L-main-container .L-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.K-header-container {
+  background-color: #e9edc9;
+}
+
+.K-article-container {
+  background-color: #e9edc9;
+}
+
+.K-button {
+  background-color: #e9edc9;
+}
+
+.D-header-container {
+  background-color: #fefae0;
+}
+
+.D-article-container {
+  background-color: #fefae0;
+}
+
+.D-button {
+  background-color: #fefae0;
+}
+
+.LR-header-container {
+  background-color: #faedcd;
+}
+
+.LR-article-container {
+  background-color: #faedcd;
+}
+
+.LR-button {
+  background-color: #faedcd;
+}
+
+.B-header-container {
+  background-color: #d4a373;
+}
+
+.B-article-container {
+  background-color: #d4a373;
+}
+
+.B-button {
+  background-color: #d4a373;
+}
+
+.Fs-header-container {
+  margin: 1em;
+  border-radius: 2em;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4a373;
+  min-height: 20vh;
+  position: relative;
+}
+.header-container .header-title {
+  font-family: "Josefin Slab";
+  text-align: center;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.329);
+  z-index: 2;
+}
+.header-container .svg {
+  position: absolute;
+  top: 0.1em;
+  right: 0.6em;
+  width: 150px;
+  opacity: 70%;
+  z-index: 1;
+}
+
+.main-container {
+  display: flex;
+}
+.main-container .article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Josefin Slab";
+  font-size: 1.8rem;
+  width: 100%;
+  margin: 10% 0;
+}
+.main-container .article-container p {
+  width: 30vh;
+  padding: 1em;
+  text-align: center;
+  border-radius: 0 2em 2em 0;
+  border: 1px solid rgba(71, 71, 71, 0.288);
+  text-shadow: 1px 1px 1px rgba(105, 105, 105, 0.329);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.219);
+}
+.main-container .article-container p a {
+  text-decoration: none;
+  color: black;
+}
+.main-container .article-container p:nth-child(even) {
+  align-self: flex-end;
+  border-radius: 2em 0 0 2em;
+  margin: 6% 0;
+}
+.main-container .article-container .Home-Office {
+  background-color: #ccd5ae;
+}
+.main-container .article-container .Kitchen {
+  background-color: #e9edc9;
+}
+.main-container .article-container .Dining-area {
+  background-color: #fefae0;
+}
+.main-container .article-container .Living-room {
+  background-color: #faedcd;
+}
+.main-container .article-container .Back-yard {
+  background-color: #d4a373;
+}/*# sourceMappingURL=main.css.map */
