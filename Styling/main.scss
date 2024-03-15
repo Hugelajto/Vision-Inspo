@@ -4,7 +4,6 @@
 @import "Pages/Dining-Area";
 @import "Pages/Living-Room";
 @import "Pages/Back-Yard";
-@import "Templates/Fullscreenlayout";
 
 html {
   scroll-behavior: smooth;
@@ -88,6 +87,59 @@ body,
     }
     .Back-yard {
       background-color: #d4a373;
+    }
+  }
+}
+
+.footer-img {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-container {
+    .svg {
+      left: 65em;
+      height: 220px;
+    }
+  }
+
+  .main-container {
+    .article-container {
+      display: flex;
+      flex-direction: row;
+      margin: 0 10%;
+      gap: 3%;
+
+      p {
+        padding: 4em 0;
+        align-self: center;
+        max-height: 10em;
+        border-radius: 2em;
+      }
+
+      p:nth-child(even) {
+        border-radius: 2em 2em 2em 2em;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        transform: scale(3);
+        color: lightgray;
+      }
+    }
+  }
+
+  .footer-container {
+    background-color: #d4a373;
+    position: relative;
+    height: 20vh;
+
+    .footer-img {
+      display: block;
+      right: 50em;
+      bottom: -6em;
+      position: absolute;
+      width: 300px;
     }
   }
 }

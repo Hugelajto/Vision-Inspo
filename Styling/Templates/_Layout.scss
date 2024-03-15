@@ -30,11 +30,23 @@
   font-family: "Josefin Slab";
 
   .L-article-container {
+    padding: 2em;
     border-radius: 1em;
     margin: 2em;
-    width: 90%;
-    min-height: 27em;
+    width: 70%;
+    height: 27em;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.411);
+  }
+
+  .list-link {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+  }
+
+  .list-link:hover {
+    color: #780116;
+    text-decoration: underline;
   }
 
   .L-button {
@@ -49,6 +61,26 @@
     a {
       text-decoration: none;
       color: black;
+    }
+
+    a:hover {
+      color: lightgray;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .L-header-container {
+    .svg {
+      left: 65em;
+    }
+  }
+
+  .L-main-container {
+    .L-article-container {
+      min-height: 37em;
+      width: 70%;
     }
   }
 }

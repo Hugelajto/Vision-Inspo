@@ -40,11 +40,21 @@
   font-family: "Josefin Slab";
 }
 .L-main-container .L-article-container {
+  padding: 2em;
   border-radius: 1em;
   margin: 2em;
-  width: 90%;
-  min-height: 27em;
+  width: 70%;
+  height: 27em;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.411);
+}
+.L-main-container .list-link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+}
+.L-main-container .list-link:hover {
+  color: #780116;
+  text-decoration: underline;
 }
 .L-main-container .L-button {
   font-family: "Josefin Slab";
@@ -59,7 +69,20 @@
   text-decoration: none;
   color: black;
 }
+.L-main-container .L-button a:hover {
+  color: lightgray;
+  text-decoration: underline;
+}
 
+@media screen and (min-width: 1024px) {
+  .L-header-container .svg {
+    left: 65em;
+  }
+  .L-main-container .L-article-container {
+    min-height: 37em;
+    width: 70%;
+  }
+}
 .K-header-container {
   background-color: #e9edc9;
 }
@@ -108,10 +131,6 @@
   background-color: #d4a373;
 }
 
-.Fs-header-container {
-  margin: 1em;
-  border-radius: 2em;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -190,4 +209,47 @@ body,
 }
 .main-container .article-container .Back-yard {
   background-color: #d4a373;
+}
+
+.footer-img {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .header-container .svg {
+    left: 65em;
+    height: 220px;
+  }
+  .main-container .article-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+    gap: 3%;
+  }
+  .main-container .article-container p {
+    padding: 4em 0;
+    align-self: center;
+    max-height: 10em;
+    border-radius: 2em;
+  }
+  .main-container .article-container p:nth-child(even) {
+    border-radius: 2em 2em 2em 2em;
+  }
+  .main-container .article-container a:hover {
+    text-decoration: underline;
+    transform: scale(3);
+    color: lightgray;
+  }
+  .footer-container {
+    background-color: #d4a373;
+    position: relative;
+    height: 20vh;
+  }
+  .footer-container .footer-img {
+    display: block;
+    right: 50em;
+    bottom: -6em;
+    position: absolute;
+    width: 300px;
+  }
 }/*# sourceMappingURL=main.css.map */
