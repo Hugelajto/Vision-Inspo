@@ -82,6 +82,9 @@
     min-height: 37em;
     width: 70%;
   }
+  .L-main-container .L-article-container .list-link {
+    padding: 0.5em;
+  }
 }
 .K-header-container {
   background-color: #e9edc9;
