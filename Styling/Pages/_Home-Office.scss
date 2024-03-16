@@ -4,8 +4,35 @@
 
 .H-article-container {
   background-color: #ccd5ae;
+
+  .Content-title {
+    text-decoration: underline;
+    font-size: 2rem;
+    padding: 0.5em;
+  }
 }
 
 .H-button {
   background-color: #ccd5ae;
+}
+
+@media screen and (min-width: 1024px) {
+  .H-article-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .Content-title {
+      text-decoration: underline;
+      font-size: 3rem;
+      padding: 0.5em;
+    }
+
+    .Set-up {
+      width: 50%;
+    }
+
+    .Accessory {
+      width: 50%;
+    }
+  }
 }

@@ -5,11 +5,33 @@
 .H-article-container {
   background-color: #ccd5ae;
 }
+.H-article-container .Content-title {
+  text-decoration: underline;
+  font-size: 2rem;
+  padding: 0.5em;
+}
 
 .H-button {
   background-color: #ccd5ae;
 }
 
+@media screen and (min-width: 1024px) {
+  .H-article-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .H-article-container .Content-title {
+    text-decoration: underline;
+    font-size: 3rem;
+    padding: 0.5em;
+  }
+  .H-article-container .Set-up {
+    width: 50%;
+  }
+  .H-article-container .Accessory {
+    width: 50%;
+  }
+}
 .L-header-container {
   display: flex;
   align-items: center;
@@ -44,7 +66,7 @@
   border-radius: 1em;
   margin: 2em;
   width: 70%;
-  height: 27em;
+  min-height: 27em;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.411);
 }
 .L-main-container .list-link {
