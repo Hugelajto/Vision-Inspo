@@ -64,13 +64,11 @@
   padding: 1em 3em;
   border: 0;
   border-radius: 9999px;
-}
-.L-main-container .L-button a {
   text-decoration: none;
   color: black;
 }
 .L-main-container .L-button a:hover {
-  color: lightgray;
+  color: #780116;
   text-decoration: underline;
 }
 
@@ -180,7 +178,9 @@ body,
   width: 100%;
   margin: 10% 0;
 }
-.main-container .article-container p {
+.main-container .article-container a {
+  text-decoration: none;
+  color: black;
   width: 30vh;
   padding: 1em;
   text-align: center;
@@ -189,11 +189,7 @@ body,
   text-shadow: 1px 1px 1px rgba(105, 105, 105, 0.329);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.219);
 }
-.main-container .article-container p a {
-  text-decoration: none;
-  color: black;
-}
-.main-container .article-container p:nth-child(even) {
+.main-container .article-container a:nth-child(even) {
   align-self: flex-end;
   border-radius: 2em 0 0 2em;
   margin: 6% 0;
@@ -214,8 +210,17 @@ body,
   background-color: #d4a373;
 }
 
-.footer-img {
-  display: none;
+.footer-container {
+  background-color: #d4a373;
+  position: relative;
+  height: 15vh;
+}
+.footer-container .footer-img {
+  display: block;
+  position: absolute;
+  width: 130px;
+  right: 9em;
+  bottom: 0.2em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -224,35 +229,28 @@ body,
     height: 220px;
   }
   .main-container .article-container {
+    height: 65vh;
     display: flex;
     flex-direction: row;
     margin: 0 10%;
     gap: 3%;
   }
-  .main-container .article-container p {
+  .main-container .article-container a {
     padding: 4em 0;
     align-self: center;
     max-height: 10em;
     border-radius: 2em;
   }
-  .main-container .article-container p:nth-child(even) {
+  .main-container .article-container a:nth-child(even) {
     border-radius: 2em 2em 2em 2em;
   }
   .main-container .article-container a:hover {
     text-decoration: underline;
-    transform: scale(3);
-    color: lightgray;
-  }
-  .footer-container {
-    background-color: #d4a373;
-    position: relative;
-    height: 20vh;
+    transform: scale(1.2);
+    color: #780116;
   }
   .footer-container .footer-img {
-    display: block;
-    right: 50em;
-    bottom: -6em;
-    position: absolute;
-    width: 300px;
+    width: 200px;
+    left: 53em;
   }
 }/*# sourceMappingURL=main.css.map */
