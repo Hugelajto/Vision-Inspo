@@ -4,6 +4,7 @@
 @import "Pages/Dining-Area";
 @import "Pages/Living-Room";
 @import "Pages/Back-Yard";
+@import "Pages/Personal";
 
 html {
   scroll-behavior: smooth;
@@ -50,7 +51,7 @@ body,
     font-family: "Josefin Slab";
     font-size: 1.8rem;
     width: 100%;
-    margin: 10% 0;
+    margin-top: 1em;
 
     a {
       text-decoration: none;
@@ -85,6 +86,10 @@ body,
     .Back-yard {
       background-color: #d4a373;
     }
+
+    .Personal {
+      background-color: #ccd5ae;
+    }
   }
 }
 
@@ -98,7 +103,7 @@ body,
     position: absolute;
     width: 130px;
     right: 9em;
-    bottom: 0.2em;
+    bottom: 0.1em;
   }
 }
 
@@ -115,8 +120,8 @@ body,
       height: 65vh;
       display: flex;
       flex-direction: row;
-      margin: 0 10%;
-      gap: 3%;
+      margin-inline: 2em;
+      gap: 2.5%;
 
       a {
         padding: 4em 0;
@@ -140,7 +145,7 @@ body,
   .footer-container {
     .footer-img {
       width: 200px;
-      left: 53em;
+      left: 50em;
     }
   }
 }

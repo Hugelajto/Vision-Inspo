@@ -6,6 +6,7 @@
   background-color: #ccd5ae;
 }
 .H-article-container .Content-title {
+  text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.329);
   text-decoration: underline;
   font-size: 2rem;
   padding: 0.5em;
@@ -154,6 +155,24 @@
   background-color: #d4a373;
 }
 
+.P-header-container {
+  background-color: #ccd5ae;
+}
+
+.P-article-container {
+  background-color: #ccd5ae;
+}
+.P-article-container .Content-title {
+  text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.329);
+  text-decoration: underline;
+  font-size: 2rem;
+  padding: 0.5em;
+}
+
+.P-button {
+  background-color: #ccd5ae;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -198,7 +217,7 @@ body,
   font-family: "Josefin Slab";
   font-size: 1.8rem;
   width: 100%;
-  margin: 10% 0;
+  margin-top: 1em;
 }
 .main-container .article-container a {
   text-decoration: none;
@@ -231,6 +250,9 @@ body,
 .main-container .article-container .Back-yard {
   background-color: #d4a373;
 }
+.main-container .article-container .Personal {
+  background-color: #ccd5ae;
+}
 
 .footer-container {
   background-color: #d4a373;
@@ -242,7 +264,7 @@ body,
   position: absolute;
   width: 130px;
   right: 9em;
-  bottom: 0.2em;
+  bottom: 0.1em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -254,8 +276,8 @@ body,
     height: 65vh;
     display: flex;
     flex-direction: row;
-    margin: 0 10%;
-    gap: 3%;
+    margin-inline: 2em;
+    gap: 2.5%;
   }
   .main-container .article-container a {
     padding: 4em 0;
@@ -273,6 +295,6 @@ body,
   }
   .footer-container .footer-img {
     width: 200px;
-    left: 53em;
+    left: 50em;
   }
 }/*# sourceMappingURL=main.css.map */
